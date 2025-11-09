@@ -2,7 +2,7 @@
 vibe-coding a website for t1's worlds 2025 win
 
 let's hope this doesn't age like milk
->[!NOTE] It aged like fine wine 🕴️🍷. Congratulations to T1 for winning WORLDS 2025! 🎉
+> [!NOTE] It aged like fine wine 🕴️🍷. Congratulations to T1 for winning WORLDS 2025! 🎉
 
 ![Homepage v5](/src/homepage.png)
 
