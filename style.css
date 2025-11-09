@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Amarillo";
+    src: url('/fonts/amarurgt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #0B0B0B, #121212);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;   /* stack the elements vertically */
+  justify-content: center;   /* vertically centre in container */
+  align-items: center;       /* horizontally centre */
+  text-align: center;        /* centre the text inside each item
+  height: 100%;              /* or if the container is full-height */
+  padding: 0 1rem;           /* some side padding for responsiveness */
+}
+
+h1 {
+  color: #FFFFFF;
+  font-family: "Amarillo", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.02em; /* small tracking if needed */
+  font-size: 48pt;
+}
+
+p {
+    font-family: "Anton", "sans-serif";
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    font-size: 24pt;
+    max-width: 800px;
+}
