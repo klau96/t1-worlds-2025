@@ -32,7 +32,7 @@ body {
   font-weight: 100;
   letter-spacing: 0.02em; 
   margin-bottom: 0.02em;
-  font-size: 48pt;
+  font-size: 48px;
 }
 
 .promo-block {
@@ -87,10 +87,23 @@ body {
   margin: 0;
 }
 
-.promo-inner h2 {
+/* Background Texture — To add black texture on both */
+.promo-inner h1, h2 { 
   font-family: "Anton", sans-serif;
+
+  background: url("src/textures/black-micro-space.jpeg");
+  background-size: 1em 1em;
+  background-clip: text;
+  background-position:center;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color:transparent;
+}
+
+.promo-inner h2 {  
   font-size: 40px;
-  font-weight: 10;
+  font-weight: 0;
   letter-spacing: 0.05em;
   line-height: 2;
   text-transform: uppercase;
@@ -100,13 +113,13 @@ body {
 }
 
 .promo-inner h1 {
-  font-family: "Anton", sans-serif;
   font-size: 160px;
   font-weight: 300;
   text-transform: uppercase;
   line-height: 0.8;
-  margin: 0;               /* crucial: no margin bottom */
-  padding: 0;
+  margin: 0;
+  padding-top: 0.05em; /* Necessary to remove font clipping on top */
+  /* padding: 0; */
   display: block;
 }
 
@@ -123,7 +136,7 @@ body {
 .player {
   width: 180px;                   /* Adjust size as needed */
   height: 265px;
-  display: flex;               /* Hide image overflow if it’s too large */
+  display: flex;
   flex-direction: column; 
   border-radius: 12px;            /* Rounded corners for a modern look */
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
