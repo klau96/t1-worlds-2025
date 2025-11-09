@@ -18,9 +18,9 @@ body {
   flex-direction: column;   /* stack the elements vertically */
   justify-content: center;   /* vertically centre in container */
   align-items: center;       /* horizontally centre */
-  text-align: center;        /* centre the text inside each item
+  text-align: center;        /* centre the text inside each item */
   height: 100%;              /* or if the container is full-height */
-  padding: 0 1rem;           /* some side padding for responsiveness */
+  padding: 0rem 1rem;           /* some side padding for responsiveness */
 }
 
 h1 {
