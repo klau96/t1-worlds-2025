@@ -11,6 +11,8 @@ body {
     background: linear-gradient(to bottom, #0B0B0B, #121212);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background: url("src/textures/black-micro-space.jpeg");
+    background-size: auto 100%;
 }
 
 .container {
@@ -35,7 +37,10 @@ body {
 
 .promo-block {
   background-color: #ffffff;
-  background: url("src/texture/halftone-paper.png");
+  background: url("src/textures/halftone-paper.png");
+  /* background: url("src/textures/topography-texture.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: 100% auto; */
   opacity: 1;
 
   position: relative;
@@ -85,7 +90,7 @@ body {
 .promo-inner h2 {
   font-family: "Anton", sans-serif;
   font-size: 40px;
-  font-weight: 1;
+  font-weight: 10;
   letter-spacing: 0.05em;
   line-height: 2;
   text-transform: uppercase;
@@ -112,7 +117,7 @@ body {
   gap: 2rem;                  /* even spacing between boxes */
   padding: 2rem;
   flex-wrap: wrap;            /* optional: wrap on smaller screens */
-  background: #0b0b0b;        /* matches your page’s dark tone */
+  /* background: #0b0b0b; */
 }
 
 .player {
