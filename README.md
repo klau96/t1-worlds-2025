@@ -1,5 +1,5 @@
 ## README
-vibe-coding a website for t1's worlds 2025 win
+vibe-coding a website for t1's worlds 2025 win.
 let's hope this doesn't age like milk
 
 > [!NOTE] 
